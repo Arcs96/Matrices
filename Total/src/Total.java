@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Total {
@@ -27,7 +28,6 @@ public class Total {
    }
     
    public void sumafilas(int a[][]){
-	   
 	   int suma1=0;
 	   int suma2=0;
 	   int suma3=0;
@@ -62,12 +62,9 @@ public class Total {
   			 
   			sumatorioFil=suma1+suma2+suma3+suma4;
   			setFilas( sumatorioFil );
-  			 
   	   }
    
-
    public void sumacolumnas(){
-	   
 	   int suma1=0;
 	   int suma2=0;
 	   int suma3=0;
@@ -102,7 +99,6 @@ public class Total {
 	         
 	         sumatorioColum=suma1+suma1+suma2+suma3+suma4;
 	         setColumnas( sumatorioColum );
-	   
    }
    
    public int sumatoriTotal(){
@@ -110,25 +106,14 @@ public class Total {
 	   sumaTotal=Filas+Columnas;
 	   return sumaTotal;
    }
-   
-     
 
    public int getFilas() {
 	return Filas;
-}
-
-   public void setFilas(int filas) {
-	Filas = filas;
-}
+   }
 
    public int getColumnas() {
 	return Columnas;
-}
-
-   public void setColumnas(int columnas) {
-	Columnas = columnas;
-}
-
+   }
    
 	public static void main(String[] args) {
 		Total tot = new Total();
