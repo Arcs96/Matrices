@@ -137,5 +137,4 @@ public class Total {
 		System.out.println("\t"+tot.sumatoriTotal());
 
 	}
-	// Por: Adrián_Ramos
 }
